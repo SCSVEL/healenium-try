@@ -98,35 +98,6 @@
                 </configuration>
             </plugin>
 
-<!--            <plugin>-->
-<!--                <groupId>io.brachu</groupId>-->
-<!--                <artifactId>docker-compose-maven-plugin</artifactId>-->
-<!--                <version>${docker-compose-maven-plugin}</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>up</id>-->
-<!--                        <phase>pre-integration-test</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>up</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <composeFile>${project.basedir}/src/test/resources/docker-compose-healenium-web.yaml</composeFile>-->
-<!--                            &lt;!&ndash; Other configurations like services, envFile, etc. &ndash;&gt;-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                    <execution>-->
-<!--                        <id>stop</id>-->
-<!--                        <phase>post-integration-test</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>stop</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <composeFile>${project.basedir}/src/test/resources/docker-compose-healenium-web.yml</composeFile>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
